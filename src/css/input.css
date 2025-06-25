@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  [aria-selected="true"] {
+    @apply bg-[#c68e17] 
+    text-white
+   ;
+  }
+}
+
+@layer components {
+  [aria-selected="false"] {
+    @apply bg-[#f5eee1] text-[#211102];
+  }
+}

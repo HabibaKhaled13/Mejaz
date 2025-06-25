@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+label {
+  font-family: Amiri;
+}
+
+span,
+p,
+button {
+  font-family: NotoSansArabic;
+}
+
+@font-face {
+  font-family: "Amiri";
+  src: url("../../font/ScheherazadeNew-Medium.ttf");
+}
+
+@font-face {
+  font-family: "NotoSansArabic";
+  src: url("../../font/NotoSansArabic-VariableFont_wdth\,wght.ttf");
+}

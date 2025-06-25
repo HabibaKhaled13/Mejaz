@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link href="../src/css/menu.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/flowbite/src/themes/default.css"
+    />
+    <link rel="stylesheet" href="../src/css/fonts.css" />
+    <link rel="shortcut icon" href="../img/82da65df-5eb0-48d4-8f0a-87aa63e6ea54.png" type="image/x-icon">
+    <title>Mejaz</title>
+  </head>
+  <body class="bg-[#f5eee1]">
+
+    <header id="nav"></header>
+    <section>
+      <div class="w-full lg:h-[50vh] h-[30vh] py-3 main flex justify-center items-center">
+         
+<nav class="flex" aria-label="Breadcrumb">
+  <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+    <li class="inline-flex items-center">
+      <a href="./home.html" id="home" class="inline-flex items-center  font-medium text-[#dfb457] hover:text-[#c49737] ">
+        <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+        </svg>
+        الرئيسية
+      </a>
+    </li>
+    <li>
+
+    </li>
+    <li aria-current="page">
+      <div class="flex items-center">
+       <svg class="rtl:rotate-180 w-3 h-3 text-[#dfb457] mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+        </svg>
+        <span class="ms-1  font-medium font-[Amiri] text-[#dfb457]  md:ms-2 ">القائمة</span>
+      </div>
+    </li>
+  </ol>
+</nav>
+
+      </div>
+    </section>
+    <section class="md:mt-20 mt-14">
+       <div class="container mx-auto md:px-20">
+                    <div class="title text-center mb-8">
+            <h2 class="text-4xl mb-7 font-semibold text-[#211102]">
+                  قائمة المشروبات لدينا
+            </h2>        
+            <img src="../img/cup.png" class="mx-auto md:w-[10%] w-[25%]">
+          </div>
+      <div class="swiper mySwiper lg:w-[90%] shadow-lg rounded-lg bg-[#f0e2c6]">
+        <div class="swiper-wrapper" >
+       <div class="swiper-slide md:p-8 p-5" id="productDetails">
+
+       </div>
+   
+      <div class="swiper-slide p-8" id="productDetailsSec">
+
+       </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    </section>
+      <section>
+
+    <section class="my-20">
+       <div class="container mx-auto md:px-20">
+                    <div class="title text-center mb-8">
+            <h2 class="text-4xl mb-7 font-semibold text-[#211102]">
+                  قائمة المخبوزات لدينا
+            </h2>        
+            <img src="../img/bakery.png" class="mx-auto md:w-[10%] w-[25%]">
+          </div>
+      <div class="swiper mySwiper lg:w-[90%] shadow-lg rounded-lg bg-[#f0e2c6]">
+        <div class="swiper-wrapper" >
+       <div class="swiper-slide md:p-8 p-5" id="productDetailsthird">
+
+       </div>
+   
+      <div class="swiper-slide p-8" id="productDetailsfourth">
+
+       </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    </section>
+       <footer class="bg-[#211102] pt-10 pb-7" id="footer"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../src/js/layout.js"></script>
+    <script src="../src/js/menu.js"></script>
+  </body>
+</html>

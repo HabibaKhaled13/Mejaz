@@ -1,0 +1,27 @@
+.main {
+  background-image: url(../../img/slider_bg_02.png);
+  background-position: center;
+  background-size: cover;
+}
+.swiper {
+  padding: 50px;
+  transform-style: preserve-3d;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 50%;
+}
+
+.swiper-wrapper {
+  background-image: url(../../img/ww.png);
+  background-position: bottom left;
+
+  background-repeat: no-repeat;
+}
+
+.swiper-rtl .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  color: #211102;
+}

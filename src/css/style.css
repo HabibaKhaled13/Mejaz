@@ -1,0 +1,32 @@
+html{
+  scroll-behavior: smooth;
+}
+.active{
+  background-color: brown !important;
+}
+#main-section {
+  background-image: url(../../img/slideshow-v1.jpg);
+  background-position: center;
+  background-size: cover;
+overflow: hidden;
+background-attachment: fixed;
+}
+
+
+#about {
+  background-image: url(../../img/backgrround.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link href="../src/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/flowbite/src/themes/default.css"
+    />
+    <link rel="stylesheet" href="../src/css/fonts.css" />
+<link rel="shortcut icon" href="../img/82da65df-5eb0-48d4-8f0a-87aa63e6ea54.png" type="image/x-icon">
+    <title>Mejaz</title>
+  </head>
+  <body>
+    <header id="nav"></header>
+
+    <main>
+      <section id="main-section" class="lg:h-screen md:h-[60vh] h-[80vh] w-full">
+        <div
+          class="flex flex-col items-center justify-center h-full w-full text-center px-4"
+        >
+          <h1
+            class="text-white font-medium mb-5 lg:text-6xl text-5xl lg:w-[37%]"
+          >
+            <span class="block font-[amiri] font-medium mb-3"
+              >نكهة القهوة الأصيلة</span
+            >
+            <span class="block text-[#c68e17] font-[amiri] font-medium"
+              >مع حلاوة الذكريات</span
+            >
+          </h1>
+          <p class="text-white mt-4 md:text-[16px] shadow-lg">
+            نقدم لكم تجربة فريدة من القهوة العربية الأصيلة والذكريات والحلويات
+            الشرقية و الغربية في اجواء فاخرة
+          </p>
+          <div class="buttons flex gap-4 mt-9">
+            <button
+              class="bg-[#f5eee1] hover:bg-[#c68e17] hover:text-white duration-300 transition-all border text-[#211102] rounded-md font-semibold border-[#c68e17] px-7 py-2.5"
+            >
+              اكتشف موقعنا
+            </button>
+            <button
+              class="text-white bg-[#c68e17] transition-all duration-300 hover:bg-[#9b731c] font-semibold border rounded-md border-[#c68e17] px-7 py-2.5"
+            >
+              اطلب الآن
+            </button>
+          </div>
+          <div class="animation"></div>
+        </div>
+      </section>
+
+      <section id="icon" class="my-16">
+        <div class="container mx-auto md:px-20">
+          <div class="title text-center">
+            <h2 class="text-4xl mb-4 font-semibold text-[#211102]">
+              أصنافنا المفضلة
+            </h2>
+            <p class="mb-14 text-slate-700">
+              استمتع بتشكيلة مختارة من ألذ مشروبات القهوة والمخبوزات الطازجة. كل
+              صنف هنا تم اختياره ليكون المفضل لديك!
+            </p>
+          </div>
+          <div class="flex flex-wrap justify-between gap-y-5 md:gap-y-0">
+            <div class="md:w-[23%] w-1/2">
+              <img src="../img/h2-custom-icon-5.png" loading="lazy" class="mx-auto" alt="" />
+              <h2 class="text-center text-[#211102] font-medium mt-3">
+                قهوة ساخنة
+              </h2>
+            </div>
+            <div class="md:w-[23%] w-1/2">
+              <img src="../img/h2-custom-icon-6.png" loading="lazy" alt="" class="mx-auto" />
+              <h2 class="text-center text-[#211102] font-medium mt-3">
+                حبوب قهوة محمصة
+              </h2>
+            </div>
+            <div class="md:w-[23%] w-1/2">
+              <img src="../img/h2-custom-icon-7.png"  loading="lazy" alt="" class="mx-auto" />
+              <h2 class="text-center text-[#211102] font-medium mt-3">
+                كرواسون طازج
+              </h2>
+            </div>
+            <div class="md:w-[23%] w-1/2">
+              <img src="../img/h2-custom-icon-8.png" loading="lazy" alt="" class="mx-auto" />
+              <h2 class="text-center text-[#211102] font-medium mt-3">
+                قهوة تيك أواي
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="bg-[#f5eee1] lg:py-20 py-10">
+        <div class="container mx-auto md:px-20">
+          <div
+            class="flex flex-wrap gap-x-3 gap-y-8 md:gap-y-10 md:p-0 p-2 justify-between"
+          >
+            <div class="lg:w-[48%] w-full self-center">
+              <div class="title">
+                <span
+                  class="inline-block py-1.5 font-medium px-4 border border-[#c68e17] text-[#c68e17] rounded-full text-sm"
+                  >نبذه عنا</span
+                >
+                <h2 class="text-4xl mb-8 mt-3 font-semibold text-[#211102]">
+                  من نحن
+                </h2>
+                <p class="mb-7 text-slate-700">
+                  نحرص في مقهانا على اختيار أجود أنواع البن من مزارع موثوقة حول
+                  العالم، ونقوم بتحميصها وتحضيرها بعناية فائقة، لنقدم لك فنجانًا
+                  يحمل بين رائحته وطعمه قصة من الإتقان والاهتمام. كما نفخر
+                  بتقديم تشكيلة مميزة من الحلويات، يتم إعدادها يوميًا باستخدام
+                  مكونات طبيعية طازجة، وبأيدي خبازين محترفين، لضمان تجربة
+                  متكاملة ترضي كافة الأذواق.
+                </p>
+                <p class="mb-14 text-slate-700">
+                  نحن نؤمن أن القهوة والحلوى ليست مجرد منتجات… بل وسيلة للتواصل،
+                  ولحظات راحة، ومصدر سعادة. ومن هذا الإيمان، نبني كل يوم تجربتك
+                  معنا على أسس من الجودة، والاحترام، والاهتمام بأدق التفاصيل.
+                </p>
+                <div class="flex gap-x-7">
+                  <div class="text-center">
+                    <h2 class="text-3xl font-semibold text-[#c68e17]">
+                      10000+
+                    </h2>
+                    <p>عميل سعيد</p>
+                  </div>
+                  <div class="text-center">
+                    <h2 class="text-3xl font-semibold text-[#c68e17]">+13</h2>
+                    <p>صنف حلويات</p>
+                  </div>
+                  <div class="text-center">
+                    <h2 class="text-3xl font-semibold text-[#c68e17]">+18</h2>
+                    <p>نوع قهوة</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-[48%] w-full">
+              <div class="img">
+                <img
+                  src="../img/8.4.jpg"
+                  alt="coffe-image"
+                  class="md:w-[90%] w-full mx-auto rounded-lg"
+                />
+              </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tabs" class="py-20">
+        <div class="container mx-auto md:px-20">
+          <div class="title text-center">
+            <h2 class="text-4xl mb-5 font-semibold text-[#211102]">
+              نقدم لكم اختيارات مميزة
+            </h2>
+            <p class="mb-14 text-slate-700">
+              نُقدّم مجموعة مختارة من القهوة، المعجنات الطازجة، الحلويات
+              الفاخرة، والمشروبات الباردة، لنُرضي جميع الأذواق في أجواء تليق
+              بذائقتكم الرفيعة.
+            </p>
+          </div>
+          <div class="mb-4 border-gray-200">
+            <ul
+              class="flex flex-wrap text-sm font-medium text-center justify-center"
+              id="default-tab"
+              data-tabs-toggle="#default-tab-content"
+              role="tablist"
+            >
+           
+              <li class="me-3" role="presentation">
+                <button
+                  class="inline-block py-3 px-6 font-[] rounded-[35px]"
+                  id="profile-tab"
+                  data-tabs-target="#profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  انواع القهوة
+                </button>
+              </li>
+              <li class="me-3" role="presentation">
+                <button
+                  class="inline-block py-3 px-6 rounded-[35px]"
+                  id="contacts-tab"
+                  data-tabs-target="#contacts"
+                  type="button"
+                  role="tab"
+                  aria-controls="contacts"
+                  aria-selected="false"
+                >
+                  المعجنات
+                </button>
+              </li>
+              <li class="me-3" role="presentation">
+                <button
+                  class="inline-block py-3 px-6 rounded-[35px]"
+                  id="dashboard-tab"
+                  data-tabs-target="#dashboard"
+                  type="button"
+                  role="tab"
+                  aria-controls="dashboard"
+                  aria-selected="false"
+                >
+                  الحلويات
+                </button>
+              </li>
+              <li class="me-3 md:mt-0 mt-3" role="presentation">
+                <button
+                  class="inline-block py-3 px-6 rounded-[35px]"
+                  id="settings-tab"
+                  data-tabs-target="#settings"
+                  type="button"
+                  role="tab"
+                  aria-controls="settings"
+                  aria-selected="false"
+                >
+                  المشروبات الباردة
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div id="default-tab-content">
+            <div
+              class="hidden mt-8"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              <div class="flex flex-wrap">
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/main-menu-5.jpg"
+                        alt="آيس لاتيه"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        قهوة عربية
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        نكهة أصيلة، تضبط مع تمر أو حلا شرقي.
+                      </p>
+                          <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">19 ر.س</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/instagram1.jpg"
+                        alt="آيس موكا"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        لاتيه
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        حليب ناعم مع قهوة إسبرسو، طعم خفيف ومخملي.
+                      </p>
+                          <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">13 ر.س</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/port-1-img-2.jpg"
+                        alt="  قهوة تركية"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        قهوة تركية
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        ثقيلة شوي، بطعم قوي ورغوة على المزاج.
+                      </p>
+                        <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">22 ر.س</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/instagram9.jpg"
+                        alt="كابتشينو"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        كابتشينو
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        رغوة كثيفة وقهوة مركّزة، طعم يروق لك وقت الراحة.
+                        </p>
+                      <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">21 ر.س</span>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="hidden mt-8"
+              id="dashboard"
+              role="tabpanel"
+              aria-labelledby="dashboard-tab"
+            >
+              <div class="flex flex-wrap">
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/blog6_1024x1024.jpg"
+                        alt="تشيز كيك"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        تشيز كيك
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-5 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        تشيز كيك لذيذة جدًا مصنوعة من أجود المكونات لتمنحك مذاق
+                        لا يُنسى.
+                      </p>
+
+                          <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">35 ر.س</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/site-img23.jpg"
+                        alt="تشيز كيك"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        ريد فيلفيت
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-5 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        ريد فيلفيت ناعمة بطبقة بسكويت مقرمشة
+                      </p>
+
+     <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">25 ر.س</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/cake.jpg"
+                        alt="تشيز كيك"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        كيكة الفراولة
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-5 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        كيكة خفيفة بطعم الفراولة الطازجة، ومغطاة بطبقة كريمية
+                        تذوب بالفم
+                      </p>
+
+                          <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">12 ر.س</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+     
+            <div
+              class="hidden mt-8"
+              id="settings"
+              role="tabpanel"
+              aria-labelledby="settings-tab"
+            >
+              <div class="flex flex-wrap">
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/still-life-with-delicious-iced-coffee.jpg"
+                        alt="   آيس لاتيه"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        آيس لاتيه
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        مزيج ناعم من الإسبريسو والحليب البارد مع مكعبات الثلج.
+                      </p>
+                         <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">19 ر.س</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/aromatic-frappuccino-table (1).jpg"
+                        alt="آيس موكا"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        آيس موكا
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        مزيج شهي من القهوة والشوكولاتة مع الحليب البارد والثلج.
+                      </p>
+                      <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">22 ر.س</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/dairy-free-iced-coffee1-1-600x900.jpg"
+                        alt="فانيلا آيس لاتيه"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        فانيلا آيس لاتيه
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        نكهة الفانيلا الكريمية مع الحليب البارد والقهوة.
+                      </p>
+                      <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">21 ر.س</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/34d9bf7f-6bfb-4e60-8301-726e5ac6509c.webp"
+                        alt="كولد برو"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        كولد برو
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        قهوة تُخمّر ببطء على البارد لساعات طويلة.
+                      </p>
+                      <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">22 ر.س</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="hidden mt-8"
+              id="contacts"
+              role="tabpanel"
+              aria-labelledby="contacts-tab"
+            >
+              <div class="flex flex-wrap">
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/h4-interactiv-banner-img-4.jpg"
+                        alt="آيس لاتيه"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        كرواسون زعتر
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        ريحة الزعتر ترد الروح، وطعمه يذكّرك بالفطورات البيتية.
+                      </p>
+                         <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">11 ر.س</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/h4-interactiv-banner-img-5.jpg"
+                        alt="آيس لاتيه"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        كرواسون جبنة
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        خفيف ومقرمش ومحشي جبنة لذيذة تذوب، يضبط مع فطورك أو
+                        قهوتك.
+                      </p>
+                        <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">12 ر.س</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-full sm:w-1/2 lg:w-1/4 p-3">
+                  <div
+                    class="rounded-xl overflow-hidden shadow-lg border bg-white hover:shadow-xl transition-shadow duration-500"
+                  >
+                    <div class="overflow-hidden">
+                      <img
+                        src="../img/h4-interactiv-banner-img-6.jpg"
+                        alt="آيس لاتيه"
+                        class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+                    <div class="p-5">
+                      <h2 class="text-xl font-bold text-[#211102] mb-2">
+                        كرواسون شوكولاتة
+                      </h2>
+                      <p
+                        class="text-slate-600 text-sm mb-4 leading-relaxed font-[NotoSansArabic]"
+                      >
+                        طبقات هشة ومحشية بشوكولاتة ناعمة.
+                      </p>
+                    <div
+                        class="bg-[#fdf6e9] px-4 py-2 rounded-md w-fit ms-auto shadow-sm"
+                      >
+                        <span class="text-[#c68e17] font-semibold">12 ر.س</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn text-center mt-8">
+            <a href="./menu.html">
+              <button
+                class="bg-[#f5eee1] hover:bg-[#c68e17]  hover:text-white duration-300 transition-all border text-[#211102] rounded-lg font-semibold border-[#c68e17] px-7 py-2.5"
+              >
+                عرض القائمة
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="offers" class="bg-[#211102] py-10">
+        <div class="container mx-auto md:px-20">
+          <div
+            class="flex flex-wrap flex-col-reverse lg:flex-row justify-between md:gap-y-9 gap-y-10 bg-[#291707] border border-[#5e3817] rounded-md shadow-md py-10 px-6"
+          >
+            <div class="lg:w-[47%] w-full">
+              <div class="img relative">
+                <img
+                  src="../img/port-1-img-7.jpg"
+                  alt=""
+                  class="w-full rounded-lg border"
+                  loading="lazy"
+                />
+                <div
+                  class="price absolute bottom-8 font-semibold text-white text-3xl right-7 shadow-lg"
+                >
+                  <span
+                    ><del class="me-2 text-slate-300">110ر.س</del>75 ر.س</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-[47%] w-full self-center">
+              <span
+                class="inline-block py-2 font-medium px-4 bg-[#c68e17] text-white rounded-full text-sm"
+                >عرض محدود</span
+              >
+              <h2 class="text-3xl leading-snug text-white font-medium mt-4">
+                عرض خاص: كوب كابتشينو مع كرواسون شوكولاتة بس بـ75 ريال!
+              </h2>
+              <p class="text-white mt-8">
+                استمتع بتجربة فريدة مع عرضنا الخاص! كوب كابتشينو لذيذ مع كرواسون
+                شوكولاتة بسعر مميز لا تفوّت الفرصة، وعيش لحظتك مع الطعم اللي
+                تحبه!
+              </p>
+              <div class="offer mt-9">
+                <p class="text-white mb-5">العرض متاح حتى:</p>
+                <ul class="flex gap-3 text-white">
+                  <li>
+                    <span
+                      class="inline-block px-5 py-3 rounded-md shadow-md bg-[#0a0601]"
+                      id="sec"
+                      ></span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      class="inline-block px-5 py-3 rounded-md shadow-md bg-[#0a0601]"
+                      id="minu"
+                      ></span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      class="inline-block px-5 py-3 rounded-md shadow-md bg-[#0a0601]"
+                      id="hours"
+                    ></span>
+                  </li>
+                  <li>
+                    <span
+                      class="inline-block px-5 py-3 rounded-md shadow-md bg-[#0a0601]"
+                      id="days"
+                    ></span>
+                  </li>
+                </ul>
+              </div>
+              <button
+                class="text-white bg-[#c68e17] font-semibold border rounded-lg text-sm mt-9 transition-all duration-300 hover:bg-[#9b731c] border-[#c68e17] px-7 py-2.5"
+              >
+                اطلب الآن
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-[#f5eee1] py-20" id="testmonial">
+        <div class="container mx-auto md:px-20">
+          <div class="title text-center">
+            <h2 class="text-4xl mb-12 font-semibold text-[#211102]">
+              وش يقولون عملائنا؟
+            </h2>
+          </div>
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="swiper"></div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-[#211102] md:py-0 py-10" id="contactUs">
+        <div class="container mx-auto md:px-20">
+          <div
+            class="flex flex-wrap justify-around md:py-20 py-4 p-5 md:p-0 lg:gap-y-0 gap-y-10"
+          >
+            <div
+              class="lg:w-[44%] w-full self-center bg-[#291707] border border-[#5e3817] rounded-lg p-7"
+            >
+              <div class="title-call">
+                <h2 class="text-2xl mt-4 mb-5 font-semibold text-white">
+                  معلومات للاتصال
+                </h2>
+                <ul>
+                  <li class="my-6">
+                    <span class="rounded-full text-xl text-white font-[amiri]"
+                      ><i
+                        class="fa-solid fa-location-dot me-2 text-[#c68e17]"
+                      ></i
+                      >العنوان</span
+                    ><span class="block ms-4 mt-2 text-gray-200 text-sm]">
+                      شارع الأمير سلطان، حي الزهراء، جدة 23424، المملكة العربية
+                      السعودية.</span
+                    >
+                  </li>
+                  <li class="my-6">
+                    <span class="rounded-full text-xl text-white font-[amiri]"
+                      ><i class="fa-solid fa-clock me-2 text-[#c68e17]"></i
+                      >ساعات العمل</span
+                    ><span class="block ms-4 mt-2 text-sm text-gray-200">
+                      من 8 صباحا حتي 11 مساء</span
+                    >
+                  </li>
+                  <li class="my-6">
+                    <span class="rounded-full text-xl text-white font-[amiri]"
+                      ><i class="fa-solid fa-phone me-2 text-[#c68e17]"></i
+                      >الهاتف</span
+                    ><span
+                      class="block me-4 mt-2 text-sm text-gray-200"
+                      dir="ltr"
+                    >
+                      +966 56 123 4567</span
+                    >
+                  </li>
+                  <li class="my-6">
+                    <span class="rounded-full text-xl text-white font-[amiri]"
+                      ><i class="fa-solid fa-envelope me-2 text-[#c68e17]"></i
+                      >البريد الإكتروني</span
+                    ><span class="block ms-4 mt-2 text-sm text-gray-200"
+                      >Mezaj@outlook.com
+                    </span>
+                  </li>
+                </ul>
+                <div class="btn mt-6">
+                  <button
+                    class="text-white bg-[#c68e17] w-full mt-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                  >
+                    احصل علي الاتجاهات<i
+                      class="fa-solid fa-location-dot ms-2 text-lg text-gray-200"
+                    ></i>
+                  </button>
+                    <a href="https://wa.me/1234567890" target="_blank">
+                  <button
+                    class="text-white bg-[#25D366] w-full mt-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                  >
+                    تواصل عبر الواتساب
+                    <i class="fa-brands fa-whatsapp text-lg ms-2"></i>
+                  </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-[46%] w-full">
+              <form class="mx-auto bg-white md:p-10 p-6 rounded-lg shadow-xl" id="form">
+                <h2 class="text-2xl font-semibold text-[#211102] mb-7">
+                  أرسل استفسارك
+                </h2>
+                <div class="my-5">
+                  <label
+                    for="name-data"
+                    class="block mb-2 font-semibold text-[#211102] "
+                    >الاسم</label
+                  >
+                  <input
+                    type="text"
+                    id="name-data"
+                  class="shadow-xs bg-gray-50 border border-gray-300 text-[#211102] text-sm rounded-lg block w-full p-2.5  "
+                    placeholder="الاسم بالكامل "
+                    required
+                  />
+                             <div
+                       id="text-valid" class=" hidden text-red-500 font-semibold font-[NotoSansArabic] mt-3"
+                  >
+                خطأ في البيانات
+                  </div>
+                </div>
+                <div class="mb-5">
+                  <label
+                    for="email"
+                    class="block mb-2 font-semibold text-[#211102] "
+                    >البريد الإلكتروني</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    class="shadow-xs bg-gray-50 border border-gray-300 text-[#211102] text-sm rounded-lg block w-full p-2.5  "
+                    placeholder="example@.com"
+                    required
+                  />
+                     <div
+                       id="text-validd" class="hidden text-red-500 font-semibold font-[NotoSansArabic] mt-3"
+                  >
+                خطأ في البيانات
+                  </div>
+                </div>
+                <div class="mb-5">
+                  <label
+                    for="info-input"
+                    class="block mb-2 font-semibold text-[#211102] "
+                    >الرسالة</label
+                  >
+                  <textarea
+                    id="info-input"
+                    rows="5"
+                    class="shadow-xs bg-gray-50 border border-gray-300 text-[#211102] text-sm rounded-lg block w-full p-2.5"
+                    placeholder="اكتب رسالتك هنا..."
+                    required
+                  ></textarea>
+                               <div
+                       id="text-validdd" class=" hidden text-red-500 font-semibold font-[NotoSansArabic] mt-3"
+                  >
+                خطأ في البيانات
+                  </div>
+                </div>
+
+                <button
+                type="submit"
+                  class="text-white transition-all duration-300 hover:bg-[#9b731c] bg-[#c68e17] w-full mt-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                >
+                  ارسال
+                </button>
+            
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white my-20">
+        <div class="container mx-auto md:px-20">
+          <div class="title text-center">
+            <h2 class="text-4xl mb-5 font-semibold text-[#211102]">
+              تابع متجرنا على إنستقرام
+            </h2>
+            <p class="mb-10 text-slate-700">
+              منتجات مختارة بعناية، تغليف أنيق، ومكان يرحب بالجميع
+            </p>
+          </div>
+          <div
+            id="portfolio"
+            class="flex flex-wrap justify-between mx-auto"
+          ></div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#211102] pt-10 pb-7" id="footer"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="../src/js/layout.js"></script>
+    <script src="../src/js/testmonial.js"></script>
+    <script src="../src/js/home.js"></script>
+  </body>
+</html>
