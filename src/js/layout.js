@@ -2,7 +2,7 @@ function navbar() {
   let navbar = `<nav class="bg-[#211102] py-1.5">
   <div class="container md:px-20 flex flex-wrap items-center justify-between mx-auto py-2">
   
-    <a href="./home.html#home" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a href="./index.html#home" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img
         src="../img/82da65df-5eb0-48d4-8f0a-87aa63e6ea54.png"
         class="md:w-[75px] w-[70px]"
@@ -53,7 +53,7 @@ function navbar() {
       >
         <li>
           <a
-            href="./home.html#main-section"
+            href="./index.html#main-section"
             class="block py-2 px-3 hover:text-[#c68e17] duration-300 transition-all text-white"
             aria-current="page"
             >الرئيسية</a
@@ -61,7 +61,7 @@ function navbar() {
         </li>
         <li>
           <a
-            href="./home.html#about"
+            href="./index.html#about"
             class="block py-2 px-3 hover:text-[#c68e17] duration-300 transition-all text-white"
             >من نحن</a
           >
@@ -75,14 +75,14 @@ function navbar() {
         </li>
         <li>
           <a
-            href="./home.html#offers"
+            href="./index.html#offers"
             class="block py-2 px-3 hover:text-[#c68e17] duration-300 transition-all text-white"
             >عروضنا الخاصة</a
           >
         </li>
         <li>
           <a
-            href="./home.html#testmonial"
+            href="./index.html#testmonial"
             class="block py-2 px-3 hover:text-[#c68e17] duration-300 transition-all text-white"
             >آراء عملائنا</a
           >
@@ -96,7 +96,7 @@ function navbar() {
         </li>
         <li>
           <a
-            href="./home.html#contactUs"
+            href="./index.html#contactUs"
             class="block py-2 px-3 hover:text-[#c68e17] duration-300 transition-all text-white"
             >تواصل معنا</a
           >
