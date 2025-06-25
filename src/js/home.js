@@ -97,22 +97,22 @@ let count = setInterval(() => {
 
 let imgs = [
   {
-    img: `../img/instagram4.jpg`,
+    img: `img/instagram4.jpg`,
   },
   {
-    img: `../img/instagram5.jpg`,
+    img: `img/instagram5.jpg`,
   },
   {
-    img: `../img/instagram6.jpg`,
+    img: `img/instagram6.jpg`,
   },
   {
-    img: `../img/instagram7.jpg`,
+    img: `img/instagram7.jpg`,
   },
   {
-    img: `../img/instagram8.jpg`,
+    img: `img/instagram8.jpg`,
   },
   {
-    img: `../img/instagram2.jpg`,
+    img: `img/instagram2.jpg`,
   },
 ];
 

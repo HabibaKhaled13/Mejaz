@@ -14,7 +14,7 @@ background-attachment: fixed;
 
 
 #about {
-  background-image: url(../../img/backgrround.jpg);
+  background-image: url(img/backgrround.jpg);
   background-position: center;
   background-size: cover;
 }
