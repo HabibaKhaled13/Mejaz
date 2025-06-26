@@ -60,7 +60,7 @@ getProducts(3, "productDetailsSec");
 
 
 async function getProductsSec(indexSec, divIdSec) {
-  let response = await fetch("./data/product.json");
+  let response = await fetch(".src//data/product.json");
   let produtDetails = await response.json();
   let product = "";
   let firstSection = produtDetails[indexSec].items;
