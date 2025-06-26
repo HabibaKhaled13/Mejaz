@@ -117,7 +117,7 @@ function footer() {
   <div class="flex flex-wrap mb-10 justify-between">
    <div class="lg:w-1/4  w-full mb-7 lg:mb-0"> 
       <div class="text-logo  text-white">
-       <img src="../img/82da65df-5eb0-48d4-8f0a-87aa63e6ea54.png" class="w-[70px] inline-block mb-2" alt="Mezaj" />
+      <img src="img/82da65df-5eb0-48d4-8f0a-87aa63e6ea54.png" class="w-[70px] inline-block mb-2" alt="Mezaj" />
         <p class="text-sm ">منذ سنوات نقدم لكم القهوة الأصيلة والحلويات الشرقية اللذيذة في جو ملئ بالدفء والراحة.</p>
       <ul class="flex text-xl mt-4 gap-x-3">
         <li><i class="fa-brands fa-facebook cursor-pointer hover:text-[#c68e17] duration-300 transition-all"></i></li>
